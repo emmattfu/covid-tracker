@@ -55,6 +55,7 @@ function Chart({data: {confirmed, recovered, deaths}, country}) {
                     fill: true 
                 }]
             }}
+            options= {{ elements: { point: { radius: 0 } } }}
             />
         ) : null
     )
